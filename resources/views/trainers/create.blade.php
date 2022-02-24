@@ -1,5 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
+@section('title', 'Trainers Create')
+@section('content')
+    <div class="form-group">
+        <label for="">NOMBRE</label>
+        <input type="text" class="form-cotrol">
+    </div>
+
+    <button type="submit" class="btn btn-danger">Guardar</button>
+@endsection
+    
+
+{{-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,4 +29,4 @@
         <button type="submit" class="btn btn-danger">Guardar</button>
     </div>
 </body>
-</html>
+</html> --}}
