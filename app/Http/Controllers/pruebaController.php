@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use app\Http\Controllers\Controller;
 
 class pruebaController extends Controller {
-    public function prueba(){
-        return 'Estoy dentro de prueba controller';
+    public function prueba($param){
+        return 'Estoy dentro de prueba controller'.$param;
     }
 
 }
