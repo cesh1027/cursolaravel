@@ -32,4 +32,4 @@ Route::get ('/name/{name}/lastname/{lastname?}',function($name, $lastname='apell
 Route::get ('/prueba', 'App\Http\Controllers\pruebaController@prueba');
 
 //acceder a controlador trainer
-Route::resource ('trainers', 'TrainerController');
+Route::resource ('trainers', 'App\Http\Controllers\TrainerController');
